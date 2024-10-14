@@ -83,9 +83,9 @@ The model has been trained on a substantial dataset of labeled plant images, all
 Training the model involved several critical steps to ensure high accuracy and reliability in predictions:
 
 1. **Dataset Preparation**: The dataset was divided into training, validation, and testing sets to evaluate the model's performance during and after training.
-2. **Data Augmentation**: Techniques such as rotation, flipping, and scaling were applied to the training images to artificially expand the dataset. This helps the model generalize better by learning from varied representations of the same class.
+2. **Data Augmentation**: Techniques such as rotation, flipping, and scaling were applied to the training images to expand the dataset artificially. This helps the model generalize better by learning from varied representations of the same class.
 3. **Hyperparameter Tuning**: Various hyperparameters, such as learning rate, batch size, and the number of epochs, were optimized to achieve the best results. This process often involves experimentation and evaluation of different combinations.
-4. **Model Evaluation**: The model's performance was assessed using metrics such as accuracy, precision, recall, and F1-score. Confusion matrices were also generated to visualize performance across different classes.
+4. **Model Evaluation**: The model's performance was assessed using accuracy, precision, recall, and F1-score metrics. Confusion matrices were also generated to visualize performance across different classes.
 5. **Continual Learning**: The model is designed to be retrained with new data periodically to enhance its performance and accuracy as more plant disease images become available.
 
 ---
@@ -102,7 +102,7 @@ These results underscore the model's ability to assist users in accurately ident
 ---
 
 ## Dataset
-The model was trained using a comprehensive dataset containing images of various plant diseases, sourced from reputable repositories. This dataset includes a diverse range of plant species and associated diseases, ensuring that the model can generalize effectively.
+The model was trained using a comprehensive dataset containing images of various plant diseases, sourced from reputable repositories. This dataset includes a diverse range of plant species and associated diseases, ensuring that the model can be generalized effectively.
 
 You can access the dataset using the following link:
 - [Kaggle Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
@@ -120,6 +120,6 @@ The **Plant Disease Recognition System** has several avenues for future developm
 ---
 
 ## Team Members
-1. Ahmed Hamdy
-2. Youssef Ahmed
-3. George Bebawy
+1. George Bebawy
+2. Ahmed Hamdy
+3. Youssef Ahmed
